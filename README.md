@@ -4,9 +4,9 @@ This is a special multi-repo version of the site created by CSA.
 
 Differences from a normal CSA site:
 
--   Vite alias to the @skeletonlabs/skeleton project
--   Removed @skeletonlabs/skeleton from package.json
--   Added Vercel deploy command to package.json
+- Vite alias to the @skeletonlabs/skeleton project
+- Removed @skeletonlabs/skeleton from package.json
+- Added Vercel deploy command to package.json
 
 At this point it only supports deploying to Vercel.
 
