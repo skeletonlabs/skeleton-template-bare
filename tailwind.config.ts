@@ -16,7 +16,23 @@ const config = {
 		extend: {}
 	},
 	// 4. Append the Skeleton plugin (after other plugins)
-	plugins: [skeleton({ themes: { preset: ['skeleton'] } })]
+	plugins: [
+		skeleton({
+			themes: {
+				preset: [
+					{ name: 'skeleton', enhancements: true },
+					{ name: 'modern', enhancements: true },
+					{ name: 'hamlindigo', enhancements: true },
+					{ name: 'rocket', enhancements: true },
+					{ name: 'sahara', enhancements: true },
+					{ name: 'gold-nouveau', enhancements: true },
+					{ name: 'vintage', enhancements: true },
+					{ name: 'seafoam', enhancements: true },
+					{ name: 'crimson', enhancements: true }
+				]
+			}
+		})
+	]
 } satisfies Config;
 
 export default config;
