@@ -9,10 +9,10 @@ devDependencies:
     specifier: ^1.37.0
     version: 1.37.0
   '@skeletonlabs/skeleton':
-    specifier: workspace:^
+    specifier: ^2.0.0-rc.0
     version: link:../../packages/skeleton
   '@skeletonlabs/tw-plugin':
-    specifier: workspace:0.0.1-rc.0
+    specifier: ^0.0.1-rc.0
     version: link:../../packages/plugin
   '@sveltejs/adapter-auto':
     specifier: ^2.1.0

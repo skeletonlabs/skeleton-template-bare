@@ -14,8 +14,8 @@
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.37.0",
-		"@skeletonlabs/skeleton": "workspace:^",
-		"@skeletonlabs/tw-plugin": "workspace:0.0.1-rc.0",
+		"@skeletonlabs/skeleton": "^2.0.0-rc.0",
+		"@skeletonlabs/tw-plugin": "^0.0.1-rc.0",
 		"@sveltejs/adapter-auto": "^2.1.0",
 		"@sveltejs/kit": "^1.22.5",
 		"@types/node": "^20.4.10",
