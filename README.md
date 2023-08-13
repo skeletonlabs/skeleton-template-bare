@@ -1,26 +1,33 @@
-# create-skeleton-app
+[![Skeleton](https://user-images.githubusercontent.com/1509726/199282306-7454adcb-b765-4618-8438-67655a7dee47.png)](https://www.skeleton.dev/)
 
-This is a special multi-repo version of the site created by CSA.
+[![npm version](https://img.shields.io/npm/v/create-skeleton-app?logo=npm&color=cb3837)](https://www.npmjs.com/package/create-skeleton-app)
+[![Chat](https://img.shields.io/discord/1003691521280856084?label=chat&logo=discord&color=7289da)](https://discord.gg/EXqV7W8MtY)
+[![Twitter Follow](https://img.shields.io/twitter/follow/SkeletonUI?style=social)](https://twitter.com/SkeletonUI)
+[![license](https://img.shields.io/badge/license-MIT-%23bada55)](https://github.com/Brain-Bones/skeleton/blob/master/LICENSE)
 
-Differences from a normal CSA site:
+# 💀 Create Skeleton App
 
-- Vite alias to the @skeletonlabs/skeleton project
-- Removed @skeletonlabs/skeleton from package.json
-- Added Vercel deploy command to package.json
+This is the CLI tool for setting up a new Skeleton App that uses [Skeleton](https://skeleton.dev/), [SvelteKit](https://kit.svelte.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
-At this point it only supports deploying to Vercel.
+`npm create skeleton-app@latest`
 
-## Reminder
+Is all you need to get started. It also supports using `npm`, `pnpm` and `yarn`.
 
-Since you have just created this site with `pnpm site <foo>`, make sure to `git init`, `git add .`, `gh repo create` and run `pnpm dev` at least once so that the alias gets setup in .svelte-kit
+While it largely mirrors the standard Svelte-Kit [create-svelte](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) app, it adds some additional choices that are relevant to Skeleton.
 
-## Deploying a site to Vercel
+# Info
 
-Repos that are not part of the main Skeleton repo will not work independently of the monorepo due to the adjustments to the @skeletonlabs/skeleton package noted above. Therefore to deploy a site, it is necessary to take advantage of the `vercel build` and `vercel deploy` of a local production build (or you can have fun setting up a GH deploy pipeline)
+You can see all command line options by running `npm create skeleton-app@latest -h`
 
-```bash
-# ensure you have the vercel cli tool
-pnpm i -g vercel
-```
+The `Enable Svelte-Kit experimental inspector?` option allows you to press ctrl-shift or opt-shift in the browser window of your running project to see an outline of each component - clicking will then launch you directly to the source of that component in VSCode. More information about this option can be found [here](https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/config.md#inspector).
 
-Two scripts have been added to package.json
+The Tailwind plugins are purely optional, see their [docs](https://tailwindcss.com/docs/plugins#official-plugins) for more information. You can also use those docs to add the plugins after initially creating your project with the CLI.
+
+## 👋 Community
+
+-   [Join the Discord](https://discord.gg/EXqV7W8MtY)
+-   [Follow on Twitter](https://twitter.com/SkeletonUI)
+
+## 🐞 Report an Issue
+
+-   [Submit Issue](https://github.com/skeleton/create-skeleton-app/issues/new/choose)
